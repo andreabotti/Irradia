@@ -1,0 +1,39 @@
+[server]
+# serves static/ at /app/static/ so the app can ship its own font files
+enableStaticServing = true
+# rerun as soon as source files change (no "Always rerun?" prompt)
+runOnSave = true
+
+[theme]
+primaryColor = "#ea7b00"
+# smaller h1 so the page title does not dominate; h2-h6 keep their defaults
+headingFontSizes = ["1.6rem", "1.3rem", "1.1rem"]
+# minimal gap between the header chrome and the title
+paddingTop = "0rem"
+# Ronzino everywhere: body text, headings and code, with system fallbacks
+font = "Ronzino, system-ui, sans-serif"
+headingFont = "Ronzino, system-ui, sans-serif"
+
+[[theme.fontFaces]]
+family = "Ronzino"
+url = "app/static/fonts/Ronzino-Regular.otf"
+weight = "400"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Ronzino"
+url = "app/static/fonts/Ronzino-Medium.otf"
+weight = "500"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Ronzino"
+url = "app/static/fonts/Ronzino-Bold.otf"
+weight = "700"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Ronzino"
+url = "app/static/fonts/Ronzino-Oblique.otf"
+weight = "400"
+style = "italic"

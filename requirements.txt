@@ -1,0 +1,6 @@
+streamlit>=1.40
+ladybug-core>=0.44
+pvlib>=0.11
+numpy
+pandas
+plotly
